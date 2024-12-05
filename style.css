@@ -17,14 +17,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #007BFF;
+    background-color: #007bff;
     padding: 10px 20px;
     color: white;
 }
 
-.navbar .logo {
+.navbar.logo {
     font-size: 1.5em;
     font-weight: bold;
+    font-style: italic;
 }
 
 .navbar .nav-links {
@@ -147,6 +148,11 @@ body {
 .card:hover {
     transform: scale(1.05);
 }
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+
 
 /* Footer */
 footer {
